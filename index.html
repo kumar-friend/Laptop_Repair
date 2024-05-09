@@ -260,18 +260,17 @@ License URL: https://creativecommons.org/licenses/by/3.0/
     </div>
     <iframe src="FeedBack.html" width="100%" style="border-style: none; border-color: inherit; border-width: medium;"></iframe>-->
    <div id="about1" class="about">
-    <div class="container">
-        <div class="about-head">
-            <h3>For On-site Service (Home) </h3>
-            <br>
-            <div style="border: 6px solid #4CAF50; padding: 15px; background-color: #f2f2f2; text-align: center;">
-                <p style="font-size: 1.4em;">
-                    <a href="#" onclick="sendMessage()" style="color: blue; text-decoration: underline;">Click here to chat on WhatsApp</a><br>
-                    <a href="https://api.whatsapp.com/send/?phone=918830161389&text&type=phone_number&app_absent=0"><img src="images/Whatsapp.jpg" alt="Whatsapp" width="40" height="40"/></a>
-                </p>
+        <div class="container">
+            <div class="about-head">
+                <h3>For On-site Service (Home) </h3>
+                <br>
+                    <div style="border: 6px solid #4CAF50; padding: 15px; background-color: #f2f2f2; text-align: center;">
+                        <p style="font-size: 1.4em;">
+                            <a href="https://api.whatsapp.com/send/?phone=918830161389&text&type=phone_number&app_absent=0" style="color: blue; text-decoration: underline;" target="_blank">Please click here to chat on WhatsApp</a><br>
+                            <a href="https://api.whatsapp.com/send/?phone=918830161389&text&type=phone_number&app_absent=0"><img src="images/Whatsapp.jpg" alt="Whatsapp" width="40" height="40"/></a></p>
+                    </div>
             </div>
-        </div>
-    </div>
+       </div>
 
     <!--<div style="min-height:550px;background-color:#333639;">
        <div style="width:40%;background-color:aqua;float:left">
@@ -569,16 +568,6 @@ License URL: https://creativecommons.org/licenses/by/3.0/
             $().UItoTop({ easingType: 'easeOutQuart' });
         });
     </script>
-
-       <script>
-            function sendMessage() {
-                var userQuery = prompt("Please let us know your query:");
-                if (userQuery) {
-                    var whatsappLink = "https://api.whatsapp.com/send/?phone=918830161389&text=" + encodeURIComponent(userQuery) + "&type=phone_number&app_absent=0";
-                    window.location.href = whatsappLink;
-                }
-            }
-        </script>
     <a href="#to-top" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
     <!---->
     <div id="light" class="white_content">
